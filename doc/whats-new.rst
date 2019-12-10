@@ -44,6 +44,8 @@ New Features
   and support `.dt` accessor for timedelta 
   via :py:class:`core.accessor_dt.TimedeltaAccessor` (:pull:`3612`)
   By `Anderson Banihirwe <https://github.com/andersy005>`_.
+- :py:meth:`Dataset.rolling` and :py:meth:`DataArray.rolling` now have a stride option
+  By `Matthias Meyer <https://github.com/niowniow>`_.
 
 Bug fixes
 ~~~~~~~~~
